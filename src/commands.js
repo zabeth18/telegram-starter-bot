@@ -159,7 +159,7 @@ function registerCommands(bot) {
     // Start the 40-second wait only after the answer.
     waiting.set(id, true);
 
-    await ctx.reply("⏱️ Next question in 40 seconds.");
+    // 40-second countdown runs silently
 
     setTimeout(async () => {
       waiting.delete(id);
