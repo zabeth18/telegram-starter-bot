@@ -66,7 +66,8 @@ function registerCommands(bot) {
     }
 
     await ctx.reply(
-      `👑 WELCOME TO EDA – DIGITAL ACADEMY 👑\n\nYour Points: ${user.points}`,
+      `👑 WELCOME TO EDA – DIGITAL ACADEMY 👑
+      \n\nYour Points: ${user.points}`,
       { reply_markup: mainMenu() }
     );
   });
